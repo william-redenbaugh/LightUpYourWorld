@@ -1,8 +1,8 @@
-#include "wifi_setup.hpp"
+#include "wifi_server.hpp"
 
 // Replace with your network credentials
-const char *ssid; 
-const char *password
+const char* ssid = "GoogleWatchesUsAll";
+const char* password = "rapidpiano738";
 
 void wifi_setup(void){
     WiFi.mode(WIFI_STA);
