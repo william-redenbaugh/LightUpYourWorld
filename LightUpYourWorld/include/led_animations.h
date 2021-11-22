@@ -3,7 +3,8 @@
 
 enum  led_animations{
     STATIC, 
-    FLOATING
+    FLOATING, 
+    BREATHING
 };
 
 struct Color{
